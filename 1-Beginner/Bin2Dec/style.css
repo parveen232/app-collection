@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    padding: 20px 50px;
+}
+
+.num-container {
+    height: 100px;
+    padding: 20px;
+    font-size: 5em;
+    word-wrap: break-word;
+
+}
+
+.binary-num {
+    color: #1b4965;
+    background-color: #bee9e8;
+    margin-bottom: 80px;
+    overflow-y: scroll;
+}
+
+.decimal-num {
+    color: #03045e;
+    background-color: #48cae4;
+}
+
+
+
+
+
