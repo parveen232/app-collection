@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Border Radius Previewer</title>
+</head>
+
+<body>
+    <div class="respect-oh">
+        <div class="outside-container">
+            <div class="inside-container">
+                <div class="result-container">
+                    <span class="result">
+                        border-radius:
+                        <span class="rs-value rs-tlr">0</span>
+                        <span class="rs-value rs-trr">0</span>
+                        <span class="rs-value rs-brr">0</span>
+                        <span class="rs-value rs-blr">0</span>;
+                    </span>
+                    <button class="btn" id="clipboard">
+                        <i class="fa-regular fa-clipboard"></i>
+                    </button>
+                </div>
+                <p>border-top-left-radius
+                    <strong>:</strong>
+                    <span class="r-value tlr">0</span>;
+                </p>
+                <p>border-top-right-radius
+                    <strong>:</strong>
+                    <span class="r-value trr">0</span>;
+                </p>
+                <p>border-bottom-right-radius
+                    <strong>:</strong>
+                    <span class="r-value brr">0</span>;
+                </p>
+                <p>border-bottom-left-radius
+                    <strong>:</strong>
+                    <span class="r-value blr">0</span>;
+                </p>
+            </div>
+
+            <div class="px-container tl-px">
+                <input type="number" id="tl-input">
+            </div>
+            <div class="px-container tr-px">
+                <input type="number" id="tr-input">
+            </div>
+            <div class="px-container br-px">
+                <input type="number" id="br-input">
+            </div>
+            <div class="px-container bl-px">
+                <input type="number" id="bl-input">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

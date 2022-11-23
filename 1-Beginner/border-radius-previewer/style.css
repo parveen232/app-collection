@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fed7c9;
+    background-image: linear-gradient(to right,
+            #910911 0%,
+            #910911 5%,
+            #fed7c9 5%,
+            #fed7c9 95%,
+            #910911 95%,
+            #910911 100%);
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.respect-oh {
+    position: relative;
+    width: 50%;
+}
+
+.outside-container {
+    height: 500px;
+    background-color: #910911;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: 2px solid #910911;
+    overflow: hidden;
+}
+
+.inside-container {
+    width: 70%;
+    height: 300px;
+    background-color: #fed7c9;
+    padding: 30px;
+}
+
+.result-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    height: 50px;
+    width: 100%;
+
+    color: #910911;
+    font-weight: bold;
+}
+
+.result {
+    word-wrap: break-word;
+    width: calc(100% - 40px);
+    overflow-y: scroll;
+    height: 100%;
+}
+
+/* to hide scrollbar */
+.result::-webkit-scrollbar {
+    width: 1rem;
+}
+
+.btn {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: #910911;
+    color: #fff;
+}
+
+.inside-container > p {
+    letter-spacing: 2px;
+    color: #910911;
+}
+
+.px-container {
+    position: absolute;
+}
+
+.px-container input {
+    border: 1px solid #910911;
+    width: 55px;
+    color: #910911;
+    font-weight: bold;
+}
+
+.px-container input:focus {
+    outline: 1.5px solid #910911;
+}
+
+.tl-px {
+    top: 10px;
+    left: -70px;
+}
+
+.tr-px {
+    top: 10px;
+    right: -70px;
+}
+
+.br-px {
+    bottom: 10px;
+    right: -70px;
+}
+
+.bl-px {
+    bottom: 10px;
+    left: -70px;
+}
