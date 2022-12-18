@@ -1,7 +1,14 @@
 const binNum = document.querySelector('.binary-num');
 const decNum = document.querySelector('.decimal-num');
+const convertBtn = document.querySelector('.convert');
 
 let input = prompt('Enter a binary number and get a decimal:');
+
+convertBtn.addEventListener('click', () => {
+    input = prompt('Enter a binary number and get a decimal:');
+    binNum.innerText = input;
+    decNum.innerText = binToDec();
+})
 
 binNum.innerText = input;
 decNum.innerText = binToDec();
