@@ -1,9 +1,6 @@
-## :ledger: AppIdeasCollection
-Projects based on [App Ideas Collection](https://github.com/florinpop17/app-ideas) by [Florin Pop](https://github.com/florinpop17)
+# AppCollection
 
-### Tier-1: Beginner Projects
-
-| Name                                | Short Description                             | 
-| ----------------------------------- | --------------------------------------------- | 
-| [Bin2Dec](./1-Beginner/Bin2Dec)     | Binary-to-Decimal number converter            | 
-| [Border Radius Previewer](./1-Beginner/border-radius-previewer)     | Preview how CSS3 border-radius values affect an element            | 
+| #  | Name                                | Short Description                             | Live Demo |
+| -- | ----------------------------------- | --------------------------------------------- | ---------- |
+| 01 | [Bin2Dec](./1-Beginner/Bin2Dec)     | Binary-to-Decimal number converter            | [Live Demo](https://app-collection.netlify.app/1-Beginner/Bin2Dec/index.html) |
+| 02 | [Border Radius Previewer](./1-Beginner/border-radius-previewer)     | Preview how CSS3 border-radius values affect an element            | [Live Demo](https://app-collection.netlify.app/1-Beginner/border-radius-previewer/index.html) |

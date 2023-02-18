@@ -1,6 +1,6 @@
 # Border-radius Previewer
 
-Idea from [here](https://github.com/florinpop17/app-ideas/edit/master/Projects/1-Beginner/Border-Radius-Previewer.md).
+Live Demo [here](https://app-collection.netlify.app/1-Beginner/border-radius-previewer/index.html).
 
 The border-radius property can have multiple values changed. Preview how the shape looks while changing these values.
 

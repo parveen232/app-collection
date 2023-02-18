@@ -1,6 +1,6 @@
 # Binary-to-Decimal number converter
 
-Idea from [here](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md).
+Live Demo [here](https://app-collection.netlify.app/1-Beginner/Bin2Dec/index.html)
 
 :white_check_mark: Input through prompt.
 
